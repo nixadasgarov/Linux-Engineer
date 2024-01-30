@@ -8,7 +8,7 @@ $TTL 3H
 
 
 ;       owner   TTL     CL      type    RDATA
-		600     IN      NS      ns1.ingress.local.
+		600     IN      NS      ns1.nihad.local.
 
 108     IN      PTR     slave.nihad.local.
 105 	IN 	PTR	master.nihad.local.

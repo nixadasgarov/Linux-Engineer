@@ -1,5 +1,5 @@
 $TTL 3H
-@       IN SOA  @ ingress.local. (
+@       IN SOA  @ nihad.local. (
                                         002     ; serial
                                         1D      ; refresh
                                         1H      ; retry
