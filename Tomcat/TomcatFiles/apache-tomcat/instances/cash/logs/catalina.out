@@ -1,0 +1,251 @@
+05-Mar-2024 00:56:43.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+05-Mar-2024 00:56:43.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+05-Mar-2024 00:56:43.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+05-Mar-2024 00:56:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2024 00:56:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.el7.x86_64
+05-Mar-2024 00:56:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2024 00:56:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-1.el7.x86_64/jre
+05-Mar-2024 00:56:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_262-b10
+05-Mar-2024 00:56:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Mar-2024 00:56:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /OPT/apache-tomcat/instances/cash
+05-Mar-2024 00:56:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /OPT/apache-tomcat/instances/cash
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/OPT/apache-tomcat/instances/cash/conf/logging.properties
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/OPT/apache-tomcat/instances/cash
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/OPT/apache-tomcat/instances/cash
+05-Mar-2024 00:56:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/OPT/apache-tomcat/instances/cash/temp
+05-Mar-2024 00:56:43.953 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2024 00:56:44.241 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 00:56:44.260 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [484] milliseconds
+05-Mar-2024 00:56:44.299 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2024 00:56:44.299 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+05-Mar-2024 00:56:44.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/ROOT]
+05-Mar-2024 00:56:44.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/ROOT] has finished in [218] ms
+05-Mar-2024 00:56:44.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/docs]
+05-Mar-2024 00:56:44.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/docs] has finished in [23] ms
+05-Mar-2024 00:56:44.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/examples]
+05-Mar-2024 00:56:44.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/examples] has finished in [209] ms
+05-Mar-2024 00:56:44.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/host-manager]
+05-Mar-2024 00:56:44.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/host-manager] has finished in [19] ms
+05-Mar-2024 00:56:44.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/manager]
+05-Mar-2024 00:56:44.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/manager] has finished in [16] ms
+05-Mar-2024 00:56:44.805 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 00:56:44.821 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [561] milliseconds
+05-Mar-2024 01:32:57.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+05-Mar-2024 01:32:57.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+05-Mar-2024 01:32:57.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+05-Mar-2024 01:32:57.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2024 01:32:57.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.el7.x86_64
+05-Mar-2024 01:32:57.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2024 01:32:57.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-1.el7.x86_64/jre
+05-Mar-2024 01:32:57.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_262-b10
+05-Mar-2024 01:32:57.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Mar-2024 01:32:57.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /OPT/apache-tomcat/instances/cash
+05-Mar-2024 01:32:57.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /OPT/apache-tomcat/instances/cash
+05-Mar-2024 01:32:57.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/OPT/apache-tomcat/instances/cash/conf/logging.properties
+05-Mar-2024 01:32:57.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2024 01:32:57.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2024 01:32:57.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2024 01:32:57.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2024 01:32:57.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2024 01:32:57.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/OPT/apache-tomcat/instances/cash
+05-Mar-2024 01:32:57.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/OPT/apache-tomcat/instances/cash
+05-Mar-2024 01:32:57.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/OPT/apache-tomcat/instances/cash/temp
+05-Mar-2024 01:32:57.826 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2024 01:32:58.147 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:32:58.162 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8081"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+05-Mar-2024 01:32:58.163 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [584] milliseconds
+05-Mar-2024 01:32:58.191 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2024 01:32:58.191 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+05-Mar-2024 01:32:58.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/ROOT]
+05-Mar-2024 01:32:58.481 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/ROOT] has finished in [282] ms
+05-Mar-2024 01:32:58.481 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/docs]
+05-Mar-2024 01:32:58.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/docs] has finished in [22] ms
+05-Mar-2024 01:32:58.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/examples]
+05-Mar-2024 01:32:58.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/examples] has finished in [326] ms
+05-Mar-2024 01:32:58.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/host-manager]
+05-Mar-2024 01:32:58.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/host-manager] has finished in [25] ms
+05-Mar-2024 01:32:58.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/manager]
+05-Mar-2024 01:32:58.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/manager] has finished in [22] ms
+05-Mar-2024 01:32:58.892 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [728] milliseconds
+05-Mar-2024 01:32:58.895 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8006] (base port [8006] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.net.ServerSocket.<init>(ServerSocket.java:252)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+05-Mar-2024 01:32:58.896 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:32:58.896 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2024 01:32:58.914 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:32:58.915 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:47:03.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+05-Mar-2024 01:47:03.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+05-Mar-2024 01:47:03.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+05-Mar-2024 01:47:03.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2024 01:47:03.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.el7.x86_64
+05-Mar-2024 01:47:03.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2024 01:47:03.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-1.el7.x86_64/jre
+05-Mar-2024 01:47:03.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_262-b10
+05-Mar-2024 01:47:03.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Mar-2024 01:47:03.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /OPT/apache-tomcat/instances/cash
+05-Mar-2024 01:47:03.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /OPT/apache-tomcat
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/OPT/apache-tomcat/instances/cash/conf/logging.properties
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/OPT/apache-tomcat/instances/cash
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/OPT/apache-tomcat
+05-Mar-2024 01:47:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/OPT/apache-tomcat/instances/cash/temp
+05-Mar-2024 01:47:03.333 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2024 01:47:03.639 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:47:03.658 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8081"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+05-Mar-2024 01:47:03.660 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [497] milliseconds
+05-Mar-2024 01:47:03.691 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2024 01:47:03.691 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+05-Mar-2024 01:47:03.700 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/ROOT]
+05-Mar-2024 01:47:03.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/ROOT] has finished in [269] ms
+05-Mar-2024 01:47:03.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/docs]
+05-Mar-2024 01:47:03.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/docs] has finished in [31] ms
+05-Mar-2024 01:47:04.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/examples]
+05-Mar-2024 01:47:04.340 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/examples] has finished in [341] ms
+05-Mar-2024 01:47:04.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/host-manager]
+05-Mar-2024 01:47:04.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/host-manager] has finished in [22] ms
+05-Mar-2024 01:47:04.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/manager]
+05-Mar-2024 01:47:04.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/manager] has finished in [23] ms
+05-Mar-2024 01:47:04.393 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [732] milliseconds
+05-Mar-2024 01:47:04.397 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8006] (base port [8006] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.net.ServerSocket.<init>(ServerSocket.java:252)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+05-Mar-2024 01:47:04.398 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:47:04.398 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2024 01:47:04.419 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:47:04.420 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:51:23.461 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:51:23.576 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2024 01:51:23.685 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:51:23.715 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:52:50.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.86
+05-Mar-2024 01:52:50.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 08:15:12 UTC
+05-Mar-2024 01:52:50.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.86.0
+05-Mar-2024 01:52:50.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2024 01:52:50.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-1160.el7.x86_64
+05-Mar-2024 01:52:50.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2024 01:52:50.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-1.el7.x86_64/jre
+05-Mar-2024 01:52:50.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_262-b10
+05-Mar-2024 01:52:50.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Mar-2024 01:52:50.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /OPT/apache-tomcat/instances/cash
+05-Mar-2024 01:52:50.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /OPT/apache-tomcat
+05-Mar-2024 01:52:50.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/OPT/apache-tomcat/instances/cash/conf/logging.properties
+05-Mar-2024 01:52:50.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2024 01:52:50.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2024 01:52:50.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2024 01:52:50.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2024 01:52:50.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2024 01:52:50.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/OPT/apache-tomcat/instances/cash
+05-Mar-2024 01:52:50.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/OPT/apache-tomcat
+05-Mar-2024 01:52:50.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/OPT/apache-tomcat/instances/cash/temp
+05-Mar-2024 01:52:50.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2024 01:52:51.369 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:52:51.396 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [835] milliseconds
+05-Mar-2024 01:52:51.434 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2024 01:52:51.434 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.86]
+05-Mar-2024 01:52:51.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/ROOT]
+05-Mar-2024 01:52:51.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/ROOT] has finished in [299] ms
+05-Mar-2024 01:52:51.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/docs]
+05-Mar-2024 01:52:51.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/docs] has finished in [33] ms
+05-Mar-2024 01:52:51.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/examples]
+05-Mar-2024 01:52:52.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/examples] has finished in [423] ms
+05-Mar-2024 01:52:52.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/host-manager]
+05-Mar-2024 01:52:52.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/host-manager] has finished in [26] ms
+05-Mar-2024 01:52:52.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/OPT/apache-tomcat/instances/cash/webapps/manager]
+05-Mar-2024 01:52:52.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/OPT/apache-tomcat/instances/cash/webapps/manager] has finished in [24] ms
+05-Mar-2024 01:52:52.262 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:52:52.284 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [887] milliseconds
+05-Mar-2024 01:54:01.033 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2024 01:54:01.033 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:54:01.040 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2024 01:54:01.059 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Mar-2024 01:54:01.067 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]

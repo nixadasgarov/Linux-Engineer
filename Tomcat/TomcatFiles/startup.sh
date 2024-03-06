@@ -1,0 +1,9 @@
+#!/bin/bash
+instance_name=$1
+TOMCAT_BASE=/OPT/apache-tomcat
+INSTANCE_BASE=$TOMCAT_BASE/instances
+CATALINA_HOME=$TOMCAT_BASE
+CATALINA_BASE=$INSTANCE_BASE/$instance_name
+export CATALINA_BASE CATALINA_HOME
+$CATALINA_HOME/bin/startup.sh
+
