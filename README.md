@@ -1,2 +1,2 @@
-# RHCE8
-Ingress Academy - Linux Engineer 8 kursuna aid tasklar və həlləri
+# Linux Engineer
+Ingress Academy - Linux Engineer 8 course tasks and solutions 
