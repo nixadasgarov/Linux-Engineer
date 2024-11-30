@@ -1,0 +1,14 @@
+$TTL 3H
+@       IN SOA  @ nihad.local. (
+                                        002     ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+        NS      @
+        A       127.0.0.1
+        AAAA    :: 
+master	IN	A 	192.168.1.105
+slave	IN	A	192.168.1.108
+testforcopied	IN 	A 	192.168.1.106
+cname 	IN	CNAME	master.nihad.local.
