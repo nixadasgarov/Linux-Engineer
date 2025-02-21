@@ -5,8 +5,8 @@ $TTL 10800	; 3 hours
 				60         ; refresh (1 minute)
 				3600       ; retry (1 hour)
 				604800     ; expire (1 week)
-				10800      ; minimum (3 hours)
-				)
+				10800 )    ; minimum (3 hours)
+				
 $TTL 600	; 10 minutes
 			NS	ns1.nihad.local.
 $ORIGIN 1.168.192.in-addr.arpa.
