@@ -1,15 +1,14 @@
 $ORIGIN .
 $TTL 10800	; 3 hours
-nihad.local		IN SOA	nihad.local. ingress.local. (
-				2          ; serial
-				86400      ; refresh (1 day)
-				3600       ; retry (1 hour)
-				604800     ; expire (1 week)
-				10800      ; minimum (3 hours)
-				)
-			NS	nihad.local.
-			A	127.0.0.1
-			AAAA	::
+@	IN SOA	@ nihad.local. (
+				        2          ; serial
+				        86400      ; refresh (1 day)
+				        3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					10800 )     ; minimum (3 hours)
+	NS	nihad.local.
+	A	127.0.0.1
+	AAAA	::
 $ORIGIN nihad.local.
 cname			CNAME	master
 master			A	192.168.1.105
