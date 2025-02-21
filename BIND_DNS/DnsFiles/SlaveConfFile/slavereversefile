@@ -8,7 +8,7 @@ $TTL 10800	; 3 hours
 				10800      ; minimum (3 hours)
 				)
 $TTL 600	; 10 minutes
-			NS	ns1.ingress.local.
+			NS	ns1.nihad.local.
 $ORIGIN 1.168.192.in-addr.arpa.
 $TTL 10800	; 3 hours
 105			PTR	master.nihad.local.
