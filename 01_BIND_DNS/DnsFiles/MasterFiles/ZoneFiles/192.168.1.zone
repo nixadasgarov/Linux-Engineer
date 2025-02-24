@@ -1,0 +1,16 @@
+$TTL 3H
+@       IN SOA  @ nihad.local. (
+					2       ; serial
+					1M      ; refresh
+					1H      ; retry
+					1W      ; expire
+					3H )    ; minimum
+;       owner   TTL     CL      type    RDATA
+	600     IN      NS      ns1.ingress.local.
+
+
+11      IN       PTR      master.nihad.local.
+12      IN       PTR      slave.nihad.local.
+
+
+
